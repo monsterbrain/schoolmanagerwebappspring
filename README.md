@@ -20,3 +20,4 @@ A simple demo app work in progress, to learn about the various working of a scho
 ## Javascript Libraries used
  - JQuery
  - [FullCalendar](https://fullcalendar.io/)
+ - [Chart js](https://www.chartjs.org/)
