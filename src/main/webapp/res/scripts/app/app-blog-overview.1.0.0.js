@@ -90,7 +90,7 @@
     }
 
     // Generate the small charts
-    boSmallStatsDatasets.map(function (el, index) {
+    /*boSmallStatsDatasets.map(function (el, index) {
       var chartOptions = boSmallStatsOptions(Math.max.apply(Math, el.data) + 1);
       var ctx = document.getElementsByClassName('blog-overview-stats-small-' + (index + 1));
       new Chart(ctx, {
@@ -108,9 +108,9 @@
         },
         options: chartOptions
       });
-    });
+    });*/
 
-
+/*
     //
     // Blog Overview Users
     //
@@ -217,7 +217,7 @@
     aocMeta.data[bouData.datasets[0].data.length - 1]._model.radius = 0;
 
     // Render the chart.
-    window.BlogOverviewUsers.render();
+    window.BlogOverviewUsers.render();*/
 
     //
     // Users by device pie chart

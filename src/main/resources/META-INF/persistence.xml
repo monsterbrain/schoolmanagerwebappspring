@@ -3,6 +3,7 @@
   <persistence-unit name="com.websystique.spring_SchoolWebApp_war_1.0.0PU" transaction-type="RESOURCE_LOCAL">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>com.websystique.spring.model.Employee</class>
+    <class>com.websystique.spring.model.UserloginMaster</class>
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/employee_db?zeroDateTimeBehavior=convertToNull"/>
