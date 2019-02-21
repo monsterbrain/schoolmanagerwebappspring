@@ -4,6 +4,11 @@
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
     <class>com.websystique.spring.model.Employee</class>
     <class>com.websystique.spring.model.UserloginMaster</class>
+    <class>com.websystique.spring.model.TimetableMaster</class>
+    <class>com.websystique.spring.model.StudentMaster</class>
+    <class>com.websystique.spring.model.SubjectMaster</class>
+    <class>com.websystique.spring.model.BreaktimeMaster</class>
+    <class>com.websystique.spring.model.TeacherMaster</class>
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/employee_db?zeroDateTimeBehavior=convertToNull"/>

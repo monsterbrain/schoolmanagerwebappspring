@@ -27,8 +27,8 @@ import org.springframework.web.bind.annotation.RestController;
 @Transactional
 public class DashboardController {
     
-    @Autowired
-    private UserloginDao dao;
+//    @Autowired
+//    private UserloginDao dao;
     
 //    @RequestMapping(value="/login", method = RequestMethod.POST)
 //    public String login(

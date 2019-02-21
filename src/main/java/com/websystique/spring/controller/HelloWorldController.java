@@ -26,6 +26,13 @@ public class HelloWorldController {
         model.addAttribute("version", "1.0");
         return "Login";
     }
+    
+    @RequestMapping(value = "timetable", method = RequestMethod.GET)
+    public String timeTableMV(ModelMap model) {
+        model.addAttribute("version", "1.0");
+        return "timetable";
+    }
+    
 
     @RequestMapping(value = "dashboard", method = RequestMethod.GET)
     public String getDashboard(ModelMap model) {
