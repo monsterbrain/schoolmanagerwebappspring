@@ -4,6 +4,9 @@ A simple demo app work in progress, to learn about the various working of a scho
 
 ![Dashboard Image](https://raw.githubusercontent.com/monsterbrain/school_manager_web_app_spring_maven/master/_res/school_dashboard.png)
 
+## MySql Databse Backup
+ - [Drive File](https://drive.google.com/open?id=1GZjx8BSqXjVRjIBbFisZ_UxX7AuR0QzX)
+
 ## Frameworks/libs Used
 - Spring MVC (4.1)
 - Hibernate 4
