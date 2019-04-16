@@ -7,8 +7,8 @@ A simple demo app *work in progress* (contributors are welcome), to learn about 
 ## Time Table Preview
 ![Timetable page](./_res/school_project_timetable.jpg)
 
-## MySql Databse Backup
- - [Drive File](https://drive.google.com/open?id=1GZjx8BSqXjVRjIBbFisZ_UxX7AuR0QzX)
+## MySql Database Backup (exported from mysql workbench 8.0)
+ - [Drive File](https://drive.google.com/file/d/1IGbOklJtrxHGP0CJ8A1LD6r5FnjALZ1A/view?usp=sharing)
 
 ## Frameworks/libs Used
 - Spring MVC (4.1)
@@ -17,7 +17,7 @@ A simple demo app *work in progress* (contributors are welcome), to learn about 
 
 ## Tools Used
  - Netbeans 8.2 (IDE)
- - Mysql workbench
+ - Mysql workbench 8.0
 
 ![Login Page](https://raw.githubusercontent.com/monsterbrain/school_manager_web_app_spring_maven/master/_res/login_page.png)
 
