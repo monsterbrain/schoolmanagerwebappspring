@@ -31,44 +31,45 @@
     </form>
     <div class="nav-wrapper">
         <ul class="nav flex-column">
+            <%String menu=request.getParameter("menu"); %>
             <li class="nav-item">
-                <a class="nav-link active" href="index.html">
+                <a class="nav-link <% if(menu.equals("dashboard")){ out.print("active"); } %>" href="dashboard.html">
                     <i class="material-icons">edit</i>
-                    <span>Home</span>
+                    <span>Home [Demo]</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="components-blog-posts.html">
+                <a class="nav-link " href="#">
                     <i class="material-icons">vertical_split</i>
                     <span>Marks</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="add-new-post.html">
+                <a class="nav-link " href="#">
                     <i class="material-icons">note_add</i>
                     <span>Assignments</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="form-components.html">
+                <a class="nav-link " href="#">
                     <i class="material-icons">view_module</i>
                     <span>Fees &amp; Payments</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="timetable">
+                <a class="nav-link <% if(menu.equals("timetable")){ out.print("active"); } %>" href="timetable">
                     <i class="material-icons">table_chart</i>
-                    <span>Time Table</span>
+                    <span>Time Table [Demo]</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="user-profile-lite.html">
+                <a class="nav-link " href="#">
                     <i class="material-icons">person</i>
                     <span>School Events</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link " href="errors.html">
+                <a class="nav-link " href="#">
                     <i class="material-icons">error</i>
                     <span>Fun &amp; Games</span>
                 </a>

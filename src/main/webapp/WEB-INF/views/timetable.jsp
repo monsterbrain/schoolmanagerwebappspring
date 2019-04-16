@@ -28,7 +28,7 @@
 
                 <!-- Main Sidebar -->                
                 <jsp:include page="MenuSidebar.jsp">
-                    <jsp:param name="menu" value="objectValue"/>
+                    <jsp:param name="menu" value="timetable"/>
                 </jsp:include>
                 <!-- End Main Sidebar -->
 
@@ -234,18 +234,28 @@
                 console.log({data});
                 if (data != null) {
 
-                    $('#timeTable>tbody').append('<tr></tr>');
+                    const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+                    var tableBody = $('#timeTable>tbody');
+                    var tRow;
                     for (var i = 0; i < data.length; i++) {
                         // [1, "09:00:00 AM", "10:00:00 AM", "Jim Carrey", "Mathematics"]
                         var dayData = data[i];
 
                         // header set
-                        $('#timeTable>thead>tr').append('<th scope="col" class="border-0"> Period ' + (dayData[0]) + '</th>');
+                        if(i<6)
+                        {
+                            $('#timeTable>thead>tr').append('<th scope="col" class="border-0"> Period ' + (dayData[0]) + '</th>');
+                        }
 
                         // add day
-                        i == 0 ? $('#timeTable>tbody>tr').append('<td>' + 'Monday' + '</td>') : 0;
+                        if(i%6 == 0){
+                            tRow = $('<tr></tr>');
+                            tRow.append('<td>' + days[i/6] + '</td>');
+                            tableBody.append(tRow);
+                        }
+                        
                         // add subject
-                        $('#timeTable>tbody>tr').append('<td>' + dayData[4] + '</td>');
+                        tRow.append('<td>' + dayData[4] + '</td>');
                     }
                 }
             });

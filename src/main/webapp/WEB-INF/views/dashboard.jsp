@@ -28,7 +28,7 @@
                 
                 <!-- Main Sidebar -->                
                 <jsp:include page="MenuSidebar.jsp">
-                    <jsp:param name="menu" value="objectValue"/>
+                    <jsp:param name="menu" value="dashboard"/>
                 </jsp:include>
                 <!-- End Main Sidebar -->
                 
