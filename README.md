@@ -1,8 +1,11 @@
-# School Manager Web App Demo using Spring MVC
+# School Manager Web App Demo using Spring MVC (maven)
 
-A simple demo app work in progress, to learn about the various working of a school management app.
+A simple demo app *work in progress* (contributors are welcome), to learn about the various working of a school management app.
 
-![Dashboard Image](https://raw.githubusercontent.com/monsterbrain/school_manager_web_app_spring_maven/master/_res/school_dashboard.png)
+![Dashboard Image](./_res/school_dashboard.png)
+
+## Time Table Preview
+![Timetable page](./_res/school_project_timetable.jpg)
 
 ## MySql Databse Backup
  - [Drive File](https://drive.google.com/open?id=1GZjx8BSqXjVRjIBbFisZ_UxX7AuR0QzX)
